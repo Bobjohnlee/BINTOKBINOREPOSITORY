@@ -186,3 +186,4 @@ Received Import Request.
 Start importing Assets/ExampleAssets/Materials/PlaneMat.mat using Guid(2da0ea038f25a4fa998f183878aedf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e582c62c28e4444f96ba4cb7793559') in 0.046362 seconds 
   Import took 0.050221 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
