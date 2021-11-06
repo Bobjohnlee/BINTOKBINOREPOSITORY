@@ -24,17 +24,11 @@ public class imageRecognitionExample : MonoBehaviour
 
     public void OnimageChanged(ARTrackedImagesChangedEventArgs args)
     {
-
+         foreach (var trackedImage in args.added )
+        {
+            Debug.Log(trackedImage.name);
+        }
     }
 
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+     
 }
